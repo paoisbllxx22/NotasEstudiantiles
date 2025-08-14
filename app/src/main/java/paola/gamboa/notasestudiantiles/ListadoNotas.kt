@@ -29,5 +29,13 @@ class ListadoNotas : AppCompatActivity() {
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerNotas)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = NotaAdapter(listaNotas)
+
+        val btnSalir = findViewById<android.widget.Button>(R.id.btnSalir)
+        btnSalir.setOnClickListener {
+            val intent = android.content.Intent(this, Login::class.java)
+            intent.flags = android.content.Intent.FLAG_ACTIVITY_CLEAR_TOP or android.content.Intent.FLAG_ACTIVITY_NEW_TASK
+            startActivity(intent)
+            finish()
+        }
     }
 }

@@ -16,4 +16,5 @@
     <string name="bienvenido">¡Bienvenido!</string>
     <string name="listado_notas">Listado de Notas</string>
     <string name="registro_exitoso">Registro exitoso</string>
+    <string name="btn_salir">Salir</string>
 </resources>
