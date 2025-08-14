@@ -15,4 +15,5 @@
     <string name="ir_a_registro">¿No tienes cuenta? Regístrate</string>
     <string name="bienvenido">¡Bienvenido!</string>
     <string name="listado_notas">Listado de Notas</string>
+    <string name="registro_exitoso">Registro exitoso</string>
 </resources>
