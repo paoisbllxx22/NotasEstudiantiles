@@ -5,8 +5,14 @@
     <string name="hint_contrasena">Contraseña</string>
     <string name="btn_registrar_usuario">Registrar usuario</string>
     <string name="btn_regresar_login">Regresar a login</string>
+    <string name="btn_iniciar_sesion">Iniciar Sesión</string>
     <string name="error_nombre">Ingrese su nombre</string>
     <string name="error_correo">Ingrese su correo electrónico</string>
     <string name="error_contrasena">Ingrese su contraseña</string>
-    <string name="registro_exitoso">Registro exitoso</string>
+    <string name="error_login">Correo o contraseña incorrectos</string>
+    <string name="login_exitoso">Inicio de sesión exitoso</string>
+    <string name="error_no_registrado">Usuario no registrado</string>
+    <string name="ir_a_registro">¿No tienes cuenta? Regístrate</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="listado_notas">Listado de Notas</string>
 </resources>
